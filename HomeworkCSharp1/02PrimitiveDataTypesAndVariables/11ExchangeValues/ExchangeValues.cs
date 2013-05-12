@@ -13,6 +13,6 @@ class ExchangeValues
         assistentVariable = firstVariable;
         firstVariable = secondVariable;
         secondVariable = assistentVariable;
-        Console.WriteLine("After exchanging first number is {0} and second is {1}", firstVariable, secondVariable);
+        Console.WriteLine("After exchange first number is {0} and second is {1}", firstVariable, secondVariable);
     }
 }
