@@ -35,7 +35,7 @@ using System;
             {
                 Console.WriteLine("Roots are all real numbers");
             }
-            else if ((a == 0) && (b != 0) && (c != 0))
+            else if ((a == 0) && (b != 0))
             {
                 Console.WriteLine("Equation has 1 real root X = {0:0.000}", (-c / b));
             }

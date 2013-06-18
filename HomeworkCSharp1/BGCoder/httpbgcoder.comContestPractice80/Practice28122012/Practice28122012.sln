@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1SevenlandNumbers", "1SevenlandNumbers\1SevenlandNumbers.csproj", "{A179E29E-F297-4E8D-8235-8BAC6D980D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ExcelColumns", "3ExcelColumns\3ExcelColumns.csproj", "{3609655C-396A-4224-9EC0-770E7457FCEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Anacci", "2Anacci\2Anacci.csproj", "{60699927-5A36-47E2-869C-2556C846B435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4TelerikLogo", "4TelerikLogo\4TelerikLogo.csproj", "{38FC319A-68CA-4AE4-B4A7-39D67DBE2B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5BitBall", "5BitBall\5BitBall.csproj", "{9EE4457D-A78D-4DC2-8958-02261F122AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A179E29E-F297-4E8D-8235-8BAC6D980D84}.Debug|x86.ActiveCfg = Debug|x86
+		{A179E29E-F297-4E8D-8235-8BAC6D980D84}.Debug|x86.Build.0 = Debug|x86
+		{A179E29E-F297-4E8D-8235-8BAC6D980D84}.Release|x86.ActiveCfg = Release|x86
+		{A179E29E-F297-4E8D-8235-8BAC6D980D84}.Release|x86.Build.0 = Release|x86
+		{3609655C-396A-4224-9EC0-770E7457FCEA}.Debug|x86.ActiveCfg = Debug|x86
+		{3609655C-396A-4224-9EC0-770E7457FCEA}.Debug|x86.Build.0 = Debug|x86
+		{3609655C-396A-4224-9EC0-770E7457FCEA}.Release|x86.ActiveCfg = Release|x86
+		{3609655C-396A-4224-9EC0-770E7457FCEA}.Release|x86.Build.0 = Release|x86
+		{60699927-5A36-47E2-869C-2556C846B435}.Debug|x86.ActiveCfg = Debug|x86
+		{60699927-5A36-47E2-869C-2556C846B435}.Debug|x86.Build.0 = Debug|x86
+		{60699927-5A36-47E2-869C-2556C846B435}.Release|x86.ActiveCfg = Release|x86
+		{60699927-5A36-47E2-869C-2556C846B435}.Release|x86.Build.0 = Release|x86
+		{38FC319A-68CA-4AE4-B4A7-39D67DBE2B7B}.Debug|x86.ActiveCfg = Debug|x86
+		{38FC319A-68CA-4AE4-B4A7-39D67DBE2B7B}.Debug|x86.Build.0 = Debug|x86
+		{38FC319A-68CA-4AE4-B4A7-39D67DBE2B7B}.Release|x86.ActiveCfg = Release|x86
+		{38FC319A-68CA-4AE4-B4A7-39D67DBE2B7B}.Release|x86.Build.0 = Release|x86
+		{9EE4457D-A78D-4DC2-8958-02261F122AB6}.Debug|x86.ActiveCfg = Debug|x86
+		{9EE4457D-A78D-4DC2-8958-02261F122AB6}.Debug|x86.Build.0 = Debug|x86
+		{9EE4457D-A78D-4DC2-8958-02261F122AB6}.Release|x86.ActiveCfg = Release|x86
+		{9EE4457D-A78D-4DC2-8958-02261F122AB6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
