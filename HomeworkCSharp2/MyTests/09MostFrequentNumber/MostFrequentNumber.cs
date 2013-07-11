@@ -2,7 +2,6 @@
 // Example: {4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3} -> 4 (5 times)
 
 using System;
-using System.Collections.Generic;
 
 class MostFrequentNumber
 {
@@ -31,9 +30,7 @@ class MostFrequentNumber
         Array.Sort(arrayOfIntegers);
 
         // check for most frequent number
-        List<int> mostFrequentNumber = new List<int>();
-        mostFrequentNumber.Add(arrayOfIntegers[0]);
-        //int mostFrequentNumber = arrayOfIntegers[0];
+        int mostFrequentNumber = arrayOfIntegers[0];
         int frequentNumber = arrayOfIntegers[0];
         int maxRepeat = 1;
         int repeat = 1;
@@ -48,39 +45,14 @@ class MostFrequentNumber
                 frequentNumber = arrayOfIntegers[i];
                 repeat = 1;
             }
-            if (repeat>maxRepeat)
+            if (repeat > maxRepeat)
             {
                 maxRepeat = repeat;
-                mostFrequentNumber.Clear();
-                mostFrequentNumber.Add(arrayOfIntegers[i]);
-            }
-            else if (repeat==maxRepeat)
-            {
-                mostFrequentNumber.Add(arrayOfIntegers[i]);
+                mostFrequentNumber = arrayOfIntegers[i];
             }
         }
 
         // print result
-        if (mostFrequentNumber.Count==1)
-        {
-            Console.WriteLine("Most frequent number in an array is: {0} -> {1} times", mostFrequentNumber[0], maxRepeat);
-        }
-        else if (mostFrequentNumber.Count>1)
-        {
-            Console.WriteLine("Most frequent numbers in an array are:");
-            for (int i = 0; i < mostFrequentNumber.Count; i++)
-            {
-                if (i==mostFrequentNumber.Count-1)
-                {
-                   Console.WriteLine(" and {0} -> {1} times",mostFrequentNumber[i],maxRepeat);
-                   break;
-                }
-                Console.Write("{0}",mostFrequentNumber[i]);
-                if (i<mostFrequentNumber.Count-2)
-                {
-                    Console.Write(", "); 
-                }
-            }   
-        }
+        Console.WriteLine("Most frequent number in an array is: {0} -> {1} times", mostFrequentNumber, maxRepeat);
     }
 }

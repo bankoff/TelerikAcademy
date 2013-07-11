@@ -10,13 +10,13 @@ class CompareTwoCharArrays
             Console.WriteLine("Please enter the first char elements:");
             string firstChars = Console.ReadLine();
 
-            //convert string to first char array and conversion letter to upper
+            //convert from string to first char array and convert letter to upper
             char[] firstArray = firstChars.ToUpper().ToCharArray(); 
            
             Console.WriteLine("Please enter the second char elements:");
             string secondChars = Console.ReadLine();
 
-            //convert string to second char array and conversion letter to upper
+            //convert from string to second char array and convert letter to upper
             char[] secondArray = secondChars.ToUpper().ToCharArray();
 
             //gets min length of the two arrays
