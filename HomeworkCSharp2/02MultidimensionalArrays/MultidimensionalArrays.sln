@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01PrintMatrixNN", "01PrintMatrixNN\01PrintMatrixNN.csproj", "{648B436C-66DA-410B-9B44-05646956E707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02MatrixNxM3x3MaxSum", "02MatrixNxM3x3MaxSum\02MatrixNxM3x3MaxSum.csproj", "{101E249D-C87A-4C48-A862-39B7943EB8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03LongestSequenceInMatrix", "03LongestSequenceInMatrix\03LongestSequenceInMatrix.csproj", "{9C9F5879-DE57-4A88-92F0-415733163BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04UseArrayBinSearch", "04UseArrayBinSearch\04UseArrayBinSearch.csproj", "{01B3D8C9-3744-465F-B4AB-747E776AC54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05SortStringArrayByLengthOfElements", "05SortStringArrayByLengthOfElements\05SortStringArrayByLengthOfElements.csproj", "{CDFD991A-E53E-4C71-BFA4-A5EBFD1EB0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06AddSubtractAndMultiplyMatrix", "06AddSubtractAndMultiplyMatrix\06AddSubtractAndMultiplyMatrix.csproj", "{B810D9B0-A1C2-47C9-AB16-520097D44BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07LargestAreaOfEqualNeighborElements", "07LargestAreaOfEqualNeighborElements\07LargestAreaOfEqualNeighborElements.csproj", "{FAE93F9A-EE2D-4F6D-9B5C-D6BBED6AE392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648B436C-66DA-410B-9B44-05646956E707}.Debug|x86.ActiveCfg = Debug|x86
+		{648B436C-66DA-410B-9B44-05646956E707}.Debug|x86.Build.0 = Debug|x86
+		{648B436C-66DA-410B-9B44-05646956E707}.Release|x86.ActiveCfg = Release|x86
+		{648B436C-66DA-410B-9B44-05646956E707}.Release|x86.Build.0 = Release|x86
+		{101E249D-C87A-4C48-A862-39B7943EB8DB}.Debug|x86.ActiveCfg = Debug|x86
+		{101E249D-C87A-4C48-A862-39B7943EB8DB}.Debug|x86.Build.0 = Debug|x86
+		{101E249D-C87A-4C48-A862-39B7943EB8DB}.Release|x86.ActiveCfg = Release|x86
+		{101E249D-C87A-4C48-A862-39B7943EB8DB}.Release|x86.Build.0 = Release|x86
+		{9C9F5879-DE57-4A88-92F0-415733163BBF}.Debug|x86.ActiveCfg = Debug|x86
+		{9C9F5879-DE57-4A88-92F0-415733163BBF}.Debug|x86.Build.0 = Debug|x86
+		{9C9F5879-DE57-4A88-92F0-415733163BBF}.Release|x86.ActiveCfg = Release|x86
+		{9C9F5879-DE57-4A88-92F0-415733163BBF}.Release|x86.Build.0 = Release|x86
+		{01B3D8C9-3744-465F-B4AB-747E776AC54A}.Debug|x86.ActiveCfg = Debug|x86
+		{01B3D8C9-3744-465F-B4AB-747E776AC54A}.Debug|x86.Build.0 = Debug|x86
+		{01B3D8C9-3744-465F-B4AB-747E776AC54A}.Release|x86.ActiveCfg = Release|x86
+		{01B3D8C9-3744-465F-B4AB-747E776AC54A}.Release|x86.Build.0 = Release|x86
+		{CDFD991A-E53E-4C71-BFA4-A5EBFD1EB0FC}.Debug|x86.ActiveCfg = Debug|x86
+		{CDFD991A-E53E-4C71-BFA4-A5EBFD1EB0FC}.Debug|x86.Build.0 = Debug|x86
+		{CDFD991A-E53E-4C71-BFA4-A5EBFD1EB0FC}.Release|x86.ActiveCfg = Release|x86
+		{CDFD991A-E53E-4C71-BFA4-A5EBFD1EB0FC}.Release|x86.Build.0 = Release|x86
+		{B810D9B0-A1C2-47C9-AB16-520097D44BF2}.Debug|x86.ActiveCfg = Debug|x86
+		{B810D9B0-A1C2-47C9-AB16-520097D44BF2}.Debug|x86.Build.0 = Debug|x86
+		{B810D9B0-A1C2-47C9-AB16-520097D44BF2}.Release|x86.ActiveCfg = Release|x86
+		{B810D9B0-A1C2-47C9-AB16-520097D44BF2}.Release|x86.Build.0 = Release|x86
+		{FAE93F9A-EE2D-4F6D-9B5C-D6BBED6AE392}.Debug|x86.ActiveCfg = Debug|x86
+		{FAE93F9A-EE2D-4F6D-9B5C-D6BBED6AE392}.Debug|x86.Build.0 = Debug|x86
+		{FAE93F9A-EE2D-4F6D-9B5C-D6BBED6AE392}.Release|x86.ActiveCfg = Release|x86
+		{FAE93F9A-EE2D-4F6D-9B5C-D6BBED6AE392}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -30,10 +30,12 @@ class MaxSequenceOfEqualElements
         int counter = 1;
         int maxSequence = 1;
         int sequencesWithMaxLength = 0;
+        bool sequenceOneElement = true;
         for (int i = 1; i < sizeOfArray; i++)
         {
             if (arrayOfIntegers[i] == arrayOfIntegers[i - 1])
             {
+                sequenceOneElement = false;
                 counter++;
                 if (counter > maxSequence)
                 {
@@ -60,6 +62,10 @@ class MaxSequenceOfEqualElements
         {
             Console.WriteLine("The maximal sequence of equal elements in array is 1");
             Console.WriteLine("The element is {0}", arrayOfIntegers[0]);
+        }
+        else if (sequenceOneElement)
+        {
+            Console.WriteLine("The maximal sequence of equal elements in array is every element");
         }
         else
         {

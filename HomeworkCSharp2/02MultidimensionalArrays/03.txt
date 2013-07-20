@@ -1,0 +1,29 @@
+¬ход 1:
+3
+4
+ha
+fifi
+ho
+hi
+fo
+ha
+hi
+xx
+xxx
+ho
+ha
+xx
+
+¬ход 2:
+3
+3
+s
+qq
+s
+pp
+pp
+s
+pp
+qq
+s
+
