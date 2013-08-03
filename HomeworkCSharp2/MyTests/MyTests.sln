@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04MaxSequenceOfEqualElement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09MostFrequentNumber", "09MostFrequentNumber\09MostFrequentNumber.csproj", "{DAA43295-854C-4E42-844A-DDB1E67F5B81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintOnConsole", "PrintOnConsole\PrintOnConsole.csproj", "{76828C14-64CF-44B1-8EF6-DAA802EC1C7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +51,10 @@ Global
 		{DAA43295-854C-4E42-844A-DDB1E67F5B81}.Debug|x86.Build.0 = Debug|x86
 		{DAA43295-854C-4E42-844A-DDB1E67F5B81}.Release|x86.ActiveCfg = Release|x86
 		{DAA43295-854C-4E42-844A-DDB1E67F5B81}.Release|x86.Build.0 = Release|x86
+		{76828C14-64CF-44B1-8EF6-DAA802EC1C7E}.Debug|x86.ActiveCfg = Debug|x86
+		{76828C14-64CF-44B1-8EF6-DAA802EC1C7E}.Debug|x86.Build.0 = Debug|x86
+		{76828C14-64CF-44B1-8EF6-DAA802EC1C7E}.Release|x86.ActiveCfg = Release|x86
+		{76828C14-64CF-44B1-8EF6-DAA802EC1C7E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
