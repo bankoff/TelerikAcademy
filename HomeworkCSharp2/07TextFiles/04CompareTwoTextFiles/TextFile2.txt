@@ -1,9 +1,0 @@
-﻿1. using System;
-2. 
-3. class HelloCSharp
-4. {
-5.     static void Main()
-6.     {
-7.
-8.     }
-9. } // ***
