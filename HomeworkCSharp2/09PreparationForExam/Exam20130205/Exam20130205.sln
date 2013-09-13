@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1DurankulakNumbers", "1DurankulakNumbers\1DurankulakNumbers.csproj", "{9B7FC01E-A5BF-4638-A380-E15CF7A31433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2JoroTheRabbit", "2JoroTheRabbit\2JoroTheRabbit.csproj", "{EA5DF707-D229-430F-8807-25EBE3BF6036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4CCharpBrackets", "4CCharpBrackets\4CCharpBrackets.csproj", "{7FF19D62-21F4-4581-B10C-0BE62490F9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5TwoIsBetterThanOne", "5TwoIsBetterThanOne\5TwoIsBetterThanOne.csproj", "{CEBCED14-C6EB-4C61-A642-7E1BB019238F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7FC01E-A5BF-4638-A380-E15CF7A31433}.Debug|x86.ActiveCfg = Debug|x86
+		{9B7FC01E-A5BF-4638-A380-E15CF7A31433}.Debug|x86.Build.0 = Debug|x86
+		{9B7FC01E-A5BF-4638-A380-E15CF7A31433}.Release|x86.ActiveCfg = Release|x86
+		{9B7FC01E-A5BF-4638-A380-E15CF7A31433}.Release|x86.Build.0 = Release|x86
+		{EA5DF707-D229-430F-8807-25EBE3BF6036}.Debug|x86.ActiveCfg = Debug|x86
+		{EA5DF707-D229-430F-8807-25EBE3BF6036}.Debug|x86.Build.0 = Debug|x86
+		{EA5DF707-D229-430F-8807-25EBE3BF6036}.Release|x86.ActiveCfg = Release|x86
+		{EA5DF707-D229-430F-8807-25EBE3BF6036}.Release|x86.Build.0 = Release|x86
+		{7FF19D62-21F4-4581-B10C-0BE62490F9E4}.Debug|x86.ActiveCfg = Debug|x86
+		{7FF19D62-21F4-4581-B10C-0BE62490F9E4}.Debug|x86.Build.0 = Debug|x86
+		{7FF19D62-21F4-4581-B10C-0BE62490F9E4}.Release|x86.ActiveCfg = Release|x86
+		{7FF19D62-21F4-4581-B10C-0BE62490F9E4}.Release|x86.Build.0 = Release|x86
+		{CEBCED14-C6EB-4C61-A642-7E1BB019238F}.Debug|x86.ActiveCfg = Debug|x86
+		{CEBCED14-C6EB-4C61-A642-7E1BB019238F}.Debug|x86.Build.0 = Debug|x86
+		{CEBCED14-C6EB-4C61-A642-7E1BB019238F}.Release|x86.ActiveCfg = Release|x86
+		{CEBCED14-C6EB-4C61-A642-7E1BB019238F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

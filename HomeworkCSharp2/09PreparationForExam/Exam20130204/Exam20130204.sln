@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1KaspichanNumbers", "1KaspichanNumbers\1KaspichanNumbers.csproj", "{437617DD-52E8-4750-903A-830A5857CC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2GreedyDwarf", "2GreedyDwarf\2GreedyDwarf.csproj", "{CE0742AA-0CED-4103-87AF-0F7D32248473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4ConsoleJustification", "4ConsoleJustification\4ConsoleJustification.csproj", "{DEB6D70F-C532-4FA6-88B7-4ABE68658D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5OneTaskIsNotEnough", "5OneTaskIsNotEnough\5OneTaskIsNotEnough.csproj", "{B003FC07-E64C-4DA5-BBC7-E58CE01EB3E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437617DD-52E8-4750-903A-830A5857CC3C}.Debug|x86.ActiveCfg = Debug|x86
+		{437617DD-52E8-4750-903A-830A5857CC3C}.Debug|x86.Build.0 = Debug|x86
+		{437617DD-52E8-4750-903A-830A5857CC3C}.Release|x86.ActiveCfg = Release|x86
+		{437617DD-52E8-4750-903A-830A5857CC3C}.Release|x86.Build.0 = Release|x86
+		{CE0742AA-0CED-4103-87AF-0F7D32248473}.Debug|x86.ActiveCfg = Debug|x86
+		{CE0742AA-0CED-4103-87AF-0F7D32248473}.Debug|x86.Build.0 = Debug|x86
+		{CE0742AA-0CED-4103-87AF-0F7D32248473}.Release|x86.ActiveCfg = Release|x86
+		{CE0742AA-0CED-4103-87AF-0F7D32248473}.Release|x86.Build.0 = Release|x86
+		{DEB6D70F-C532-4FA6-88B7-4ABE68658D6C}.Debug|x86.ActiveCfg = Debug|x86
+		{DEB6D70F-C532-4FA6-88B7-4ABE68658D6C}.Debug|x86.Build.0 = Debug|x86
+		{DEB6D70F-C532-4FA6-88B7-4ABE68658D6C}.Release|x86.ActiveCfg = Release|x86
+		{DEB6D70F-C532-4FA6-88B7-4ABE68658D6C}.Release|x86.Build.0 = Release|x86
+		{B003FC07-E64C-4DA5-BBC7-E58CE01EB3E3}.Debug|x86.ActiveCfg = Debug|x86
+		{B003FC07-E64C-4DA5-BBC7-E58CE01EB3E3}.Debug|x86.Build.0 = Debug|x86
+		{B003FC07-E64C-4DA5-BBC7-E58CE01EB3E3}.Release|x86.ActiveCfg = Release|x86
+		{B003FC07-E64C-4DA5-BBC7-E58CE01EB3E3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
