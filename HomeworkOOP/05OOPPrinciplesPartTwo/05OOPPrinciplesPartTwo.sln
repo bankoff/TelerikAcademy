@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01CalculateSurface", "01CalculateSurface\01CalculateSurface.csproj", "{FCEB22BD-B52E-48EE-B197-80D491F9B896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Bank", "02Bank\02Bank.csproj", "{F9A0E608-04A0-4643-BC7B-534589862535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Exception", "03Exception\03Exception.csproj", "{7F0C251F-F866-4DE0-864C-2D2843955292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCEB22BD-B52E-48EE-B197-80D491F9B896}.Debug|x86.ActiveCfg = Debug|x86
+		{FCEB22BD-B52E-48EE-B197-80D491F9B896}.Debug|x86.Build.0 = Debug|x86
+		{FCEB22BD-B52E-48EE-B197-80D491F9B896}.Release|x86.ActiveCfg = Release|x86
+		{FCEB22BD-B52E-48EE-B197-80D491F9B896}.Release|x86.Build.0 = Release|x86
+		{F9A0E608-04A0-4643-BC7B-534589862535}.Debug|x86.ActiveCfg = Debug|x86
+		{F9A0E608-04A0-4643-BC7B-534589862535}.Debug|x86.Build.0 = Debug|x86
+		{F9A0E608-04A0-4643-BC7B-534589862535}.Release|x86.ActiveCfg = Release|x86
+		{F9A0E608-04A0-4643-BC7B-534589862535}.Release|x86.Build.0 = Release|x86
+		{7F0C251F-F866-4DE0-864C-2D2843955292}.Debug|x86.ActiveCfg = Debug|x86
+		{7F0C251F-F866-4DE0-864C-2D2843955292}.Debug|x86.Build.0 = Debug|x86
+		{7F0C251F-F866-4DE0-864C-2D2843955292}.Release|x86.ActiveCfg = Release|x86
+		{7F0C251F-F866-4DE0-864C-2D2843955292}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
