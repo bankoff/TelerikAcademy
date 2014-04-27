@@ -1,0 +1,39 @@
+body {
+
+	form {
+
+		input{
+			position:absolute;
+		}
+
+		label {
+
+			img{
+				position:relative;
+				width:125px;
+			}
+		}
+
+		div {
+
+			span {
+				visibility:hidden;
+			}
+		} 
+	}
+}  
+
+#preview{
+	width: 640px;
+	height:480px;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+ 
+@each $animal in Bear, Cat, Dogs, Horse, Lion, Rhinoceros, Snake, Wolf {
+	##{$animal}{
+		&:checked ~ #preview{
+			background-image: url('images/#{$animal}.jpg');
+		} 
+	}
+}

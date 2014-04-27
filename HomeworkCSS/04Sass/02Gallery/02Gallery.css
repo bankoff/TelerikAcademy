@@ -1,0 +1,38 @@
+body form input {
+  position: absolute; }
+body form label img {
+  position: relative;
+  width: 125px; }
+body form div span {
+  visibility: hidden; }
+
+#preview {
+  width: 640px;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
+
+#Bear:checked ~ #preview {
+  background-image: url("images/Bear.jpg"); }
+
+#Cat:checked ~ #preview {
+  background-image: url("images/Cat.jpg"); }
+
+#Dogs:checked ~ #preview {
+  background-image: url("images/Dogs.jpg"); }
+
+#Horse:checked ~ #preview {
+  background-image: url("images/Horse.jpg"); }
+
+#Lion:checked ~ #preview {
+  background-image: url("images/Lion.jpg"); }
+
+#Rhinoceros:checked ~ #preview {
+  background-image: url("images/Rhinoceros.jpg"); }
+
+#Snake:checked ~ #preview {
+  background-image: url("images/Snake.jpg"); }
+
+#Wolf:checked ~ #preview {
+  background-image: url("images/Wolf.jpg"); }
+

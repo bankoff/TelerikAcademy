@@ -1,0 +1,21 @@
+﻿body {
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li ul {
+    display: none;
+}
+
+
+ul li:hover > ul {
+    display: block;
+    color: gray;
+}
+
+span:hover{
+    text-decoration: underline;
+}

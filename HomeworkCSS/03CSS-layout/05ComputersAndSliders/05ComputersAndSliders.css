@@ -1,0 +1,64 @@
+﻿body, nav, aside, section, fieldset, div, p {
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-weight:bold;
+    width:800px
+}
+nav{
+    margin:10px;
+    border-bottom: 2px solid black;
+}
+nav ul {
+    text-align:center;
+}      
+nav ul li{
+    display:inline-block;
+    font-size:1.4em;
+    padding:0 5px;
+}
+aside{
+    float:right;
+    min-width:150px;
+    width:20%;
+    padding-top:100px;
+    padding-left:0;
+    text-align:center;
+}
+aside>label{
+    display:inline-block;
+    padding-top:40px;
+}
+fieldset{
+    display:inline-block;
+    width: 260px;
+    text-align:center;
+    border:2px solid black;
+    padding:5px;
+}
+div{
+    display:inline-block;
+}
+section{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+article{
+    width:600px;
+    text-align:center;
+    border:2px solid black;
+    padding-bottom:5px;
+}
+p{
+    position:relative;
+    padding-bottom:30px;
+}
+p:last-of-type{
+    padding-bottom:5px;
+}
+img{
+    height:116px;
+    width:169px;
+}

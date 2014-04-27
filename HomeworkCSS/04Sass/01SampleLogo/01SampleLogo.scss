@@ -1,0 +1,323 @@
+$backgroundcolor:#9216f2;
+$regFormColor:#b35ef3;
+$borderColor:#603382;
+$hoverColor:#8949b9;
+$navBorderColor:#000;
+$colorLIHover:#a8a8a8;
+$colorP:#cccccc;
+$subNavListColor:rgba(179, 94, 243, 0.9);
+$colorFooter:#aaaaaa;
+$fontsize:14px;
+$fontsizeEM:1.4em;
+$fontfamily:Arial;
+$secondaryFontFamilies:Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+$fontcolor:white;
+$fontweigth:normal;
+
+@mixin clearfixIE{
+	zoom:1;
+}
+
+@mixin clearfixBoth{
+	 clear: both;
+}
+
+@mixin clearfixOverflowHidden{
+	content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+@mixin gradientPurple{
+	/* Firefox 3.6+ */
+    background: -moz-linear-gradient(100% 100% 90deg, #9216f2, #d390ff);
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d390ff), to(#9216f2));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(#d390ff, #9216f2);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(#9216f2, #d390ff);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d390ff', endColorstr='#9216f2');
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+.clearfix, body header div#header-container, body header nav, body header nav ul, body header nav ul li ul.sub-nav-list, body section, body aside {
+    @include clearfixIE;
+}
+
+.clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header div#header-container:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
+    @include clearfixOverflowHidden;
+}
+
+.clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
+    @include clearfixBoth;
+}
+
+body > header{
+@include gradientPurple;
+}
+
+body {
+    font: $fontsize $fontweigth $fontfamily;
+    color: $fontcolor;
+    background-color: $backgroundcolor;
+
+	header {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+		div#header-container {
+
+			div#logo-container {
+				float: left;
+				position: relative;
+
+				h1 a img {
+					border-style: none;
+				}
+			}
+
+			div#reg-form-container {
+				float: right;
+				position: relative;
+				right: 5%;
+				top: 50%;
+
+				div {
+					text-align: right;
+
+					label {
+						width: 50px;
+						margin: 5px;
+					}
+
+					input {
+						width: 130px;
+						border: 1px solid $borderColor;
+						border-radius: 10px;
+						padding: 2px 5px;
+						margin: 5px;
+						background-color: $regFormColor;
+						font-size:$fontsizeEM;
+					}
+				}
+
+				button {
+					margin-left: auto;
+					margin-right: auto;
+					font-weight: bold;
+					border: 1px solid $borderColor;
+					border-style: outset;
+					border-radius: 10px;
+					padding: 5px 8px;
+					background-color: $regFormColor;
+					color: $fontcolor;					
+				}
+
+				button:hover {
+					background-color: $hoverColor;
+					border-style: inset;
+				}
+			}
+		}
+
+		nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px 20px 20px 20px;
+            padding: 12px;
+            border: 1px solid $navBorderColor;
+            border-radius: 15px;
+
+			ul.nav-list {
+                list-style-type: none;
+            }
+
+			ul {
+				li {
+					float: left;
+					margin: 0;
+
+					a {
+						text-decoration: none;
+						padding: 0 10px 0 10px;
+						color: $fontcolor;
+						font: $fontsizeEM/1.2 $fontweigth $fontfamily;
+					}
+
+					ul.sub-nav-list {
+						position: absolute;
+						display: none;
+						background-color: $subNavListColor;
+						border-radius: 5px;
+					}
+
+					ul {
+
+						li {
+							float: none;
+							margin: 0 15px;
+							padding: 10px 0;
+							border-bottom: 1px solid $navBorderColor;
+						}
+
+						li:last-of-type {
+							border-bottom: none;
+						}
+
+						li > a {
+							font-size: $fontsizeEM/1.2;
+							color: $fontcolor;
+						}
+					}
+				}
+
+				li:hover > a {
+                    text-decoration: underline;
+                    color: $colorLIHover;
+                }
+
+				li:hover > a + ul {
+                    display: block;
+                }
+			}
+        }
+    }
+
+    section {
+		width: 75%;
+		float: left;
+		color: $navBorderColor;
+
+		article {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid $navBorderColor;
+            border-radius: 15px;
+            color: $fontcolor;
+
+			header {
+                background: none;
+                padding: 5px;
+
+				h1 {
+                    font-size: $fontsizeEM;
+                    padding: 0;
+                }
+			}
+
+			footer {
+                padding: 5px;
+
+				p {
+                    font-size: $fontsizeEM/1.2;
+                    text-align: right;
+                    font-weight: $fontweigth;
+
+					time {
+                        font-family: $secondaryFontFamilies;
+                    }
+
+					a {
+                        text-decoration: none;
+                        color: $colorFooter;
+                    }
+
+					a:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+	aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+    
+        > ul {
+            list-style-type: none;
+
+            > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: 1px solid $navBorderColor;
+                border-radius: 5px;
+
+				h2 {
+                    font-size: $fontsizeEM/1.2;
+                    font-weight: bold;
+                }
+
+				p {
+                    margin-top: 10px;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    font-size: $fontsizeEM/1.2;
+
+					a {
+                        color: $colorFooter;
+                        text-decoration: none;
+                    }
+
+					strong {
+                        color: $colorP;
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+
+					em {
+                        color: $colorP;
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+				ul {
+                    list-style-type: none;
+                    margin-top: 10px;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+               
+					 li {
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        background: url(images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+				}
+            }
+		}
+	}
+
+    footer {
+       @include clearfixBoth;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+		p {
+            font-size: $fontsizeEM/1.2;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

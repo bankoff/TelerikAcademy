@@ -1,0 +1,191 @@
+﻿body, section, header, article, div, ul, li, input, button, span, form {
+    margin: 0;
+    padding: 0; 
+}
+
+section{
+    background: -webkit-linear-gradient(#C7E1FB 0, #FBFDFF 30%, #C2DFFB 31%, #CCE3FC 50%);
+    background:    -moz-linear-gradient(#C7E1FB 0, #FBFDFF 30%, #C2DFFB 31%, #CCE3FC 50%);
+    background:      -o-linear-gradient(#C7E1FB 0, #FBFDFF 30%, #C2DFFB 31%, #CCE3FC 50%);
+    background:         linear-gradient(#C7E1FB 0, #FBFDFF 30%, #C2DFFB 31%, #CCE3FC 50%);
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 412px;
+}
+
+header{
+    padding-left: 10px;
+}
+
+.control {
+    position: absolute;
+    margin-top: -5px;
+    padding-top: 0;
+}
+
+#minimize {
+    margin-left: 225px;
+    width: 22px;
+}
+
+#maximize {
+    margin-left: 247px;
+    width: 22px;
+}
+
+#close {
+    margin-left: 269px;
+    width: 44px;
+    background-color: #ff4030;
+    color: white;
+}
+
+article {
+    margin: 5px;
+    width: 400px;
+    background-color: #D9E4F1;
+    border: 1px solid #808C9B;
+}
+
+article>ul{
+    padding-left: 5px;
+    border-bottom: 1px solid #BFC5D6;
+}
+
+article>input {
+    width: 375px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 30px;
+    text-align:right;
+    background: #e5eefb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e5eefb 0%, #f0f5fc 50%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5eefb), color-stop(50%,#f0f5fc), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e5eefb 0%,#f0f5fc 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e5eefb 0%,#f0f5fc 50%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e5eefb 0%,#f0f5fc 50%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e5eefb 0%,#f0f5fc 50%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5eefb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+article>ul>li {
+    display: inline-block;
+    padding-right:10px;
+}
+
+article>ul>li:first-letter {
+    text-decoration: underline;
+}
+
+.binaryCode {
+    border: 1px solid black;
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.binaryCode ul li {
+    display: inline-block;
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+
+.binaryCode ul li ul {
+    display: inline-block;
+    margin:0;
+    padding-left:8px;
+    padding-right:8px;
+    width: 28px;
+}
+
+.digits :first-child {
+
+    padding-left: 8px;
+    color: #6C6A67;
+}
+
+.digits :nth-child(2) {
+    padding-left: 174px;
+    color: #6C6A67;
+}
+
+.digits :last-child {
+    padding-left: 140px;
+    color: #6C6A67;
+}
+
+#lastdigit {
+    padding-left: 147px;
+}
+
+li>input{
+    display: inline-block;
+    background-color:transparent;
+    padding: 0;
+    margin: -3px;
+    border: none;
+    width: 10px;
+}
+
+.radioButtons > form {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 65px;
+    font-size: 14px;
+}
+    .radioButtons > form > ul > li {
+        display:block;
+        padding-top: 1px;
+
+    }
+
+.buttons, .radioButtons {
+    display:inline-block;
+}
+
+.btn {
+    border: 1px solid #94A3B5;
+    background: -webkit-linear-gradient(#EEF4FA 0, #E4EBF4 49%, #D5E0ED 50%, #D8E3F0 20%);
+    background:    -moz-linear-gradient(#EEF4FA 0, #E4EBF4 49%, #D5E0ED 50%, #D8E3F0 20%);
+    background:      -o-linear-gradient(#EEF4FA 0, #E4EBF4 49%, #D5E0ED 50%, #D8E3F0 20%);
+    background:         linear-gradient(#EEF4FA 0, #E4EBF4 49%, #D5E0ED 50%, #D8E3F0 20%);
+    border-style: inset;
+    height:25px;
+    width:33px;
+    margin-top: 5px;
+    padding:2px;
+}
+
+.zero {
+    width:70px;
+}
+
+.equal {
+    position:absolute;
+    margin-left: 4px;
+    height: 55px;
+}
+
+.btn:not(:disabled):hover, .btn:not(:disabled):focus {
+    border-color: #ffd800;
+    background: -webkit-linear-gradient(#FEEEDE 0, #FCE3C6 49%, #FBD382 50%, #FBEB8D 20%);
+    background:    -moz-linear-gradient(#FEEEDE 0, #FCE3C6 49%, #FBD382 50%, #FBEB8D 20%);
+    background:      -o-linear-gradient(#FEEEDE 0, #FCE3C6 49%, #FBD382 50%, #FBEB8D 20%);
+    background:         linear-gradient(#FEEEDE 0, #FCE3C6 49%, #FBD382 50%, #FBEB8D 20%);
+}
+
+.btn:disabled {
+            border-color: #B9C7D6;
+            border-style: solid;
+            background-color: transparent;
+}
+

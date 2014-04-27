@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01CSSPresentation", "02CSSPresentation\01CSSPresentation.csproj", "{37E8E2BC-EC5C-4275-89A6-22CB6CC083B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Gradient", "02Gradient\02Gradient.csproj", "{B626CB00-A850-4196-B133-52A20EB12784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03NestedDiv", "03NestedDiv\03NestedDiv.csproj", "{F3D61842-3936-422E-9E3F-F665376F75CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Calculator", "04Calculator\04Calculator.csproj", "{17902BC3-F3E5-450C-A540-310A7E36753F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E8E2BC-EC5C-4275-89A6-22CB6CC083B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E8E2BC-EC5C-4275-89A6-22CB6CC083B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E8E2BC-EC5C-4275-89A6-22CB6CC083B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E8E2BC-EC5C-4275-89A6-22CB6CC083B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B626CB00-A850-4196-B133-52A20EB12784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B626CB00-A850-4196-B133-52A20EB12784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B626CB00-A850-4196-B133-52A20EB12784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B626CB00-A850-4196-B133-52A20EB12784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D61842-3936-422E-9E3F-F665376F75CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D61842-3936-422E-9E3F-F665376F75CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D61842-3936-422E-9E3F-F665376F75CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D61842-3936-422E-9E3F-F665376F75CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17902BC3-F3E5-450C-A540-310A7E36753F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17902BC3-F3E5-450C-A540-310A7E36753F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17902BC3-F3E5-450C-A540-310A7E36753F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17902BC3-F3E5-450C-A540-310A7E36753F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

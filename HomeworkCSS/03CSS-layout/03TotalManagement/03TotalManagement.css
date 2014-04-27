@@ -1,0 +1,103 @@
+﻿body, header, form, img, p, article, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #3b3b3b;
+	color: #aaa;
+	font-family:Tahoma;
+}
+
+header {
+	font-size: 2em;
+	color: #fff;
+	background: url("shadow.jpg") no-repeat bottom left;
+	
+}
+
+form {
+	display: inline-block;
+}
+
+img {
+	margin: 7px;
+    margin-bottom:0;
+}
+
+h1 {
+	color: #f9cc11;
+}
+
+p {
+	width: 638px;
+}
+
+p span {
+	color: #dedede;
+}
+
+article {
+padding:0 20px;
+margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    height:30px;
+}
+
+input[type="submit"] {
+	-moz-box-shadow:inset 0px -10px 25px 5px #ff3324;
+	-webkit-box-shadow:inset 0px -10px 25px 5px #ff3324;
+	box-shadow:inset 0px -10px 25px 5px #ff3324;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fad3d0), color-stop(1, #b80404) );
+	background:-moz-linear-gradient( center top, #fad3d0 5%, #b80404 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fad3d0', endColorstr='#b80404');
+	background-color:#fad3d0;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}
+input[type="submit"]:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b80404), color-stop(1, #fad3d0) );
+	background:-moz-linear-gradient( center top, #b80404 5%, #fad3d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b80404', endColorstr='#fad3d0');
+	background-color:#b80404;
+}
+
+input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
