@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Sequences", "1Sequences\1Sequences.csproj", "{1771D374-11EF-4C8F-B772-3D2E41AACC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2JoroTheNaughty", "2JoroTheNaughty\2JoroTheNaughty.csproj", "{73A93F25-1EA4-4DE9-B877-56BAA3D9F3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ClojureParsing", "3ClojureParsing\3ClojureParsing.csproj", "{02F5BCE3-271E-4625-B099-2D75A4A3547E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1771D374-11EF-4C8F-B772-3D2E41AACC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1771D374-11EF-4C8F-B772-3D2E41AACC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1771D374-11EF-4C8F-B772-3D2E41AACC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1771D374-11EF-4C8F-B772-3D2E41AACC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A93F25-1EA4-4DE9-B877-56BAA3D9F3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A93F25-1EA4-4DE9-B877-56BAA3D9F3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A93F25-1EA4-4DE9-B877-56BAA3D9F3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A93F25-1EA4-4DE9-B877-56BAA3D9F3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F5BCE3-271E-4625-B099-2D75A4A3547E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F5BCE3-271E-4625-B099-2D75A4A3547E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F5BCE3-271E-4625-B099-2D75A4A3547E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F5BCE3-271E-4625-B099-2D75A4A3547E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
