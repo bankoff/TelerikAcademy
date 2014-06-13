@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Table</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            background: gray;
+            color: white;
+        }
+
+        tr:nth-child(2n) {
+            background: lightgray;
+        }
+
+        tr td:nth-child(2) {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/x-handlebars-template" id="table-template">
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Title</th>
+                    <th>Date #1</th>
+                    <th>Date #2</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {{#each lectures}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{title}}</td>
+                    <td>{{firstDate}}</td>
+                    <td>{{secondDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+
+    <script src="Scripts/handlebars.js"></script>
+    <script>
+        var lectures = [{
+            title: "Course Introduction",
+            firstDate: "Wed 18:00, 28-May-2014",
+            secondDate: "Thu 14:00, 29-May-2014"
+        }, {
+            title: "Document Object Model",
+            firstDate: "Wed 18:00, 28-May-2014",
+            secondDate: "Thu 14:00, 29-May-2014"
+        }, {
+            title: "HTML5 Canvas",
+            firstDate: "Thu 18:00, 29-May-2014",
+            secondDate: "Fri 14:00, 30-May-2014"
+        }, {
+            title: "KineticJS Overview",
+            firstDate: "Thu 18:00, 29-May-2014",
+            secondDate: "Fri 14:00, 30-May-2014"
+        }, {
+            title: "SVG and RaphaelJS",
+            firstDate: "Wed 18:00, 04-Jun-2014",
+            secondDate: "Thu 14:00, 05-Jun-2014"
+        }, {
+            title: "Animations with Canvas and SVG",
+            firstDate: "Wed 18:00, 04-Jun-2014",
+            secondDate: "Thu 14:00, 05-Jun-2014"
+        }, {
+            title: "DOM operations",
+            firstDate: "Thu 18:00, 05-Jun-2014",
+            secondDate: "Fri 14:00, 06-Jun-2014"
+        }, {
+            title: "Event model",
+            firstDate: "Thu 18:00, 05-Jun-2014",
+            secondDate: "Fri 14:00, 06-Jun-2014"
+        }, {
+            title: "jQuery overview",
+            firstDate: "Wed 18:00, 11-Jun-2014",
+            secondDate: "Thu 14:00, 12-Jun-2014"
+        }, {
+            title: "HTML templates",
+            firstDate: "Wed 18:00, 11-Jun-2014",
+            secondDate: "Thu 14:00, 12-Jun-2014"
+        }, {
+            title: "Exam preparation",
+            firstDate: "Thu 18:00, 12-Jun-2014",
+            secondDate: "Fri 14:00, 13-Jun-2014"
+        }, {
+            title: "Exam",
+            firstDate: "Tue 10:00, 17-Jun-2014",
+            secondDate: "Tue 16:30, 17-Jun-2014"
+        }, {
+            title: "Teamwork Defense",
+            firstDate: "Thu 10:00, 19-Jun-2014",
+            secondDate: "Thu 10:00, 19-Jun-2014"
+        }];
+
+        var tableTemplate = document.getElementById("table-template").innerHTML;
+        var template = Handlebars.compile(tableTemplate);
+        var lecturesHtml = template({ lectures: lectures });
+
+        document.getElementById("root").innerHTML = lecturesHtml;
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>To Do List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        ul li {
+            margin: 10px;
+            padding: 10px;
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p><strong>To Do List</strong> </p>
+
+        <form id="todo">
+            <input id="enter" type="text" name="item" value="555" />
+            <button id="add" type="submit">Add the entered new item</button>
+            <button id="remove">Remove entered item LIST number (For Shopping enter 1)</button>
+            <button id="showHide">Show/Hide</button>
+        </form>
+    </div>
+    <div>
+        <ol id="toDoList">
+            <li>Shopping</li>
+            <li>Cleaning</li>
+            <li>Studying</li>
+            <li>Having fun</li>
+        </ol>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+</html>
