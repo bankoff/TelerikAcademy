@@ -1,0 +1,3 @@
+Bottleneck was in file OrbitsCalculator
+Method EarthRotation
+changed decimal with double significantly improved performance

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem.csproj", "{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02PerformanceaAddSubtractIncrementMultiplyDivide", "02PerformanceaAddSubtractIncrementMultiplyDivide\02PerformanceaAddSubtractIncrementMultiplyDivide.csproj", "{ED6139BF-F914-4368-A399-CE4ABCE9BFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03PerformanceOfSquareRootNaturalLogarithmSinus", "03PerformanceOfSquareRootNaturalLogarithmSinus\03PerformanceOfSquareRootNaturalLogarithmSinus.csproj", "{206A5F07-D502-4614-B211-9C87323E1F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04PerformanceOfInsertionSelectionQuicksort", "04PerformanceOfInsertionSelectionQuicksort\04PerformanceOfInsertionSelectionQuicksort.csproj", "{C22C68EB-D9F7-4F84-A60E-48F3502CE00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6139BF-F914-4368-A399-CE4ABCE9BFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6139BF-F914-4368-A399-CE4ABCE9BFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6139BF-F914-4368-A399-CE4ABCE9BFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6139BF-F914-4368-A399-CE4ABCE9BFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206A5F07-D502-4614-B211-9C87323E1F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206A5F07-D502-4614-B211-9C87323E1F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206A5F07-D502-4614-B211-9C87323E1F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206A5F07-D502-4614-B211-9C87323E1F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22C68EB-D9F7-4F84-A60E-48F3502CE00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22C68EB-D9F7-4F84-A60E-48F3502CE00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22C68EB-D9F7-4F84-A60E-48F3502CE00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22C68EB-D9F7-4F84-A60E-48F3502CE00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
