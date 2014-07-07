@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>1DomManipulationsModule</title>
+    <style>
+        a.button {
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+    <body>
+        <a href="#" class="button">Click to alert</a>
+        <a href="#" class="button">Click to alert</a>
+        <a href="#" class="button">Click to alert</a>
+        <a href="#" class="button">Click to alert</a>
+        <ul id="main-nav">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <button id="add-buffer-elements">Add 100 elements to the buffer</button>
+        <button id="remove-first-li">Remove first list item from the list</button>
+
+        <div id="test-buffer">
+
+        </div>
+
+        <script src="scripts/1DomManipulationsModule.js"></script>
+        <script>
+            var div = document.createElement('div');
+            div.innerText = 'div appended to buffer';
+            var newDiv;
+            for (var i = 0; i < 99; i++) {
+                addDivToTestDiv(i + 1);
+            }
+
+            function addDivToTestDiv(num) {
+                newDiv = div.cloneNode(true);
+                newDiv.innerText += ' #' + num;
+                domModule.addToBuffer('#test-buffer', newDiv);
+            }
+
+            domModule.addHandler('#add-buffer-elements', 'click', function () {
+                addDivToTestDiv(100);
+                domModule.getElementBySelector('#add-buffer-elements').disabled = true;
+            });
+
+            domModule.addHandler('a.button', 'click', function () {
+                alert('Event handler attachment working correctly.');
+            });
+
+            domModule.addHandler('#remove-first-li', 'click', function () {
+                domModule.removeChild('ul', 'li:first-child');
+            });
+        </script>
+    </body>
+</html>
