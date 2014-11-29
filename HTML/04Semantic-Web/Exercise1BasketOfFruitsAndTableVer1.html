@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Fruits And Table</title>
+    <style type="text/css">
+        table{
+            display:inline-block;
+        }
+        th{
+            font-size:2em;
+        }
+        #letters{
+            border:1px solid black;
+        }
+        #letters td{
+            border:1px solid black;
+            padding:5px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <em>Fresh Fruits</em>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>It has long been known that a diet</td>
+                <td rowspan="5"><img src="images/Fruits.png" alt="Pfoto of fruits"/></td>
+            </tr>
+            <tr>
+                <td>that includes at least a few</td>
+            </tr>
+            <tr>
+                <td>servings of fresh fruit every day</td>
+            </tr>
+            <tr>
+                <td>will help keep you healthy, fit and</td>
+            </tr>
+            <tr>
+                <td>trim.</td>
+            </tr>
+        </tbody>
+    </table>
+    <table  border="1" id="letters">
+        <tr>
+            <td colspan="3">Title goes here</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td rowspan="3">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td colspan="2">I</td>
+            <td rowspan="2">J</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>N</td>
+            <td colspan="4">O</td>
+        </tr>
+    </table>
+</body>
+</html>
