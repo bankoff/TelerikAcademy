@@ -1,0 +1,62 @@
+﻿        body {
+            font-weight: bolder;
+        }
+
+         div#left-side {
+             margin: 0;
+             padding: 10px;
+             width: 400px;
+         }
+
+        div#rigth-side {
+            width: 400px;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            left: 400px;
+        }
+
+        div#error {
+            height: 40px;
+            color: red;
+            font-size: 30px;
+        }
+
+        div#scores {
+            color: blue;
+        }
+
+        div#result {
+            color: greenyellow;
+        }
+
+        button#try {
+            border: 3px solid darkgray;
+            height: 40px;
+        }
+
+        button#clear-localstorage, button#show-highscores {
+            background-color: lightblue;
+            border-radius: 20px;
+            border: 3px solid darkblue;
+            color: darkblue;
+            width: 170px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+
+        button#new-game {
+            background-color: red;
+            border-radius: 20px;
+            border: 3px solid darkred;
+            color: white;
+            width: 345px;
+            height: 40px;
+            font-size: 20px;
+        }
+
+        input#input-number {
+            background-color: #2f4f4f;
+            font-size: 20px;
+            color: white;
+        }
